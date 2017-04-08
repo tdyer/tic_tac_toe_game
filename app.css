@@ -1,0 +1,21 @@
+
+.cell-empty {
+  height: 150px;
+  width: 150px;
+  background-color: gray
+}
+
+.cell-x {
+  height: 150px;
+  width: 150px;
+  background-color: gray;
+  background-image: url('x.png');
+  background-size: 150px
+}
+.cell-o {
+  height: 150px;
+  width: 150px;
+  background-color: gray;
+  background-image: url('O.png');
+  background-size: 150px
+}
