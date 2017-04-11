@@ -2,5 +2,45 @@
 .cell-empty {
   height: 150px;
   width: 150px;
-  background-color: gray
+  background-color: gray;
+  position:relative
+}
+
+.resetGame {
+  float:right;
+  margin: 5%
+}
+
+.player1 {
+  height: 75px;
+  width: 75px;
+}
+
+.player2 {
+  height: 75px;
+  width: 75px;
+}
+
+
+body {
+  background-color: #660000
+}
+
+table {
+  margin:  auto
+}
+
+h1 {
+  color: #ff0000;
+  font-size: 75px;
+  margin: auto;
+  text-decoration: underline;
+  text-align: center;
+  padding: 20px
+}
+
+button {
+  border-radius: 50%;
+  font-size: 30px;
+  color: #ff0000
 }

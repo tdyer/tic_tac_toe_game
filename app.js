@@ -42,7 +42,7 @@ const playerClick = function(event) {
     if (player1 === true) {
         // If it is player1's turn the background of the element will change
         // to an X.png image which will be resized to fit into the cell.
-        clickElement.css('background-image', "url('x.png')")
+        clickElement.css('background-image', "url('X.png')")
         clickElement.css('background-size', '150px')
         // put a data attribute, player: 'x', on the cell clicked
         clickElement.data('player', 'x')
@@ -103,7 +103,6 @@ const checkForWinner = function(player) {
     } else if (checkCell('#c6', player) && checkCell('#c4', player) && checkCell('#c2', player)) {
         foundWinner = true
         // Second diagonal bottom left corner cell(c6) middle cell(c4) and top right corner cell(c2)
-        console.log('whats happening')
     }
     return foundWinner
 
